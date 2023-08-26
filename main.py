@@ -1,4 +1,4 @@
-__import__('pysqlist3')
+__import__('pysqlit3')
 import sys
 sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
